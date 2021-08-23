@@ -1,0 +1,179 @@
+body {
+    /* background-color: #e0e0e0; */
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.navbar {
+    /* border: 2px solid red !important; */
+    /* background-color: rgb(155, 155, 155); */
+    /* background: linear-gradient(225deg, #cacaca, #f0f0f0); */
+    box-shadow:  -20px 20px 60px #6b6b6bb2,
+             20px -20px 60px #e4afaf;
+    height: 70px !important;
+    /* font-family: 'Akaya Kanadaka', cursive !important; */
+}
+.nav-link {
+    color: rgb(192, 23, 23) !important;
+    
+}
+#a {
+    text-decoration: none !important;
+}
+.navbar-brand{
+    margin-right: 130px !important;
+}
+.nav-item {
+    margin-right: 50px !important;
+    margin-left: 50px !important;
+}
+.logindiv {
+    margin-left: 120px !important;
+}
+#logo{
+    width: 60px !important;
+}
+.logincontainer{
+    color: rgb(192, 23, 23) !important;
+    padding: 30px !important;
+    width: 50% !important;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+    /* border: 1px solid !important; */
+    border-radius: 40px 0 40px 0;
+background: linear-gradient(225deg, #cacaca, #f0f0f0);
+box-shadow:  -20px 20px 60px #bebebe,
+             20px -20px 60px #ffffff;
+}
+.inputdata {
+    border-radius: 50px;
+/* background: linear-gradient(225deg, #f5f1f1, #c7c7c7); */
+box-shadow:  -20px 20px 60px #757575,
+             20px -20px 60px #ffffff;
+}
+.sbmtbtn {
+    background-color: snow !important;
+    color: rgb(192, 23, 23);
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px !important;
+}
+.sbmtbtn:hover {
+    color: rgb(74, 95, 15) !important;
+}
+.loginpagetxt {
+    color: rgb(192, 23, 23) !important;
+}
+.sliderheadlarge {
+    font-weight: 600;
+    margin: 0 auto !important;
+    color: rgb(192, 23, 23) !important;;
+    /* border: 1px solid; */
+    width: 80% !important;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(155, 154, 154, 0.596);
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+    box-shadow: 5px 5px 5px #e77777;
+
+}
+.sliderheadsmall {
+    font-weight: 600;
+    margin: 0 auto !important;
+    color: rgb(192, 23, 23) !important;;
+    /* border: 1px solid; */
+    width: 80% !important;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(155, 154, 154, 0.657);
+    box-shadow: 5px 5px 5px #e77777;
+
+}
+.logoutdiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Logoutbtn{
+    background-color: rgb(194, 191, 191) !important;
+}
+.btncontainer {
+    display: flex;
+    justify-content: left;
+    margin-left: 80px ;
+ 
+}
+.Resturantbtn {
+    margin-top: 300px !important;
+    margin-bottom: 20px !important;
+    background-color: rgb(200, 11, 42);
+    width: 100% !important;
+    padding: 20px 50px 20px 50px !important;
+}
+.Resturantbtn a {
+    color: ivory !important;
+}
+.usertbtn{
+    width: 100% !important;
+    background-color: rgb(200, 11, 42);
+    padding: 20px 50px 20px 50px !important;
+}
+.usertbtn a {
+    color: ivory !important;
+}
+.adminconitainer {
+    width: 80% !important;
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+    /* border: 1px solid; */
+}
+.dashboraddiv {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    width: 80%;
+    margin: 0 auto !important;
+    background-color: rgb(149, 8, 62);
+    color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 30px !important;    
+    margin-bottom: 30px !important;    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.logoutbutton{
+    margin-top: -20px !important;
+}
+.productcarddiv {
+    border-radius: 20px;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    /* width: 40% !important; */
+    margin-top: 30px !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-wrap:wrap !important;
+}
+h5 {
+    text-align: center !important;
+    font-weight: 800;
+}
+p {
+    text-align: center !important;
+    font-weight: bold !important;
+}
+.card {
+    margin-bottom: 30px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 50px; 
+border-radius: 50px; 
+background: #ffffff;
+-webkit-box-shadow: 12px 12px 24px #c2bcbc,
+-12px -12px 24px #fffefe;
+box-shadow: 12px 12px 24px #c2bcbc,
+-12px -12px 24px #fffefe;
+
+}
+.footerdiv{
+
+    margin-top: 30px !important;
+    background-color: rgba(149, 8, 62, 0.294);
+} 

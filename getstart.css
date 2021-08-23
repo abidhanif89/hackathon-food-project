@@ -1,0 +1,88 @@
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background-image: url(images/footer\ image.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.navbar {
+    /* border: 2px solid red !important; */
+    background-color: rgba(149, 8, 62, 0.685);
+    height: 70px !important;
+}
+.nav-link {
+    color: rgb(241, 235, 235) !important;
+    font-size: 18px !important;
+    font-weight: 400;
+}
+#a {
+    text-decoration: none !important;
+}
+.navbar-brand{
+    margin-right: 130px !important;
+}
+.nav-item {
+    margin-right: 50px !important;
+    margin-left: 50px !important;
+}
+.logindiv {
+    margin-left: 120px !important;
+}
+#logo{
+    width: 60px !important;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: left;
+    margin-left: 80px ;
+ 
+}
+.Resturantbtn {
+    margin-top: 300px !important;
+    margin-bottom: 20px !important;
+    background-color: rgba(200, 11, 42, 0.602);
+    width: 100% !important;
+    padding: 20px 50px 20px 50px !important;
+}
+.Resturantbtn a {
+    color: ivory !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.usertbtn{
+    width: 100% !important;
+    font-size: 18px;
+    background-color: rgba(200, 11, 42, 0.589);
+    padding: 20px 50px 20px 50px !important;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+.usertbtn a {
+    color: ivory !important;
+    font-weight: 500;
+}
+.usertbtn:hover{
+    background-color: rgba(200, 11, 42, 0.959);
+}
+.Resturantbtn:hover{
+    background-color: rgba(200, 11, 42, 0.959);
+}
+.nav-link:hover{
+    background-color: rgba(148, 24, 44, 0.959);
+    border-radius: 10px;
+}

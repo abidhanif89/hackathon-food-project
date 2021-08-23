@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NavBar Start Here -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand " href="#"><img src="images/logo 1.png" alt="logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Services<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Resturants<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link logindiv" href="getstart.html">Get Start</a>
+                </li>
+                <div class="logoutdiv">
+                    <button type="submit" class="btn btn-primary sbmtbtn logoutbutton" onclick="logOut()">Logout</button>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- NavBar ENd -->
+    <!-- body start here -->
+    <div class="container adminconitainer">
+        <div class="dashboraddiv">
+        <h3 class="dashboard">Restaurant Dashboard</h3>
+    </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recived Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pending Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delivered</a>
+            </li>
+          </ul>
+          <!-- <product card start> -->
+          <div id="cards" class="productcarddiv">
+
+          </div>
+        <!-- product card end -->
+    <div class="logoutdiv">
+        
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Add Products
+        </button> -->
+        
+        
+        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add Products</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control inputdata" id="productname" aria-describedby="emailHelp"
+                                placeholder="Product Name" required>
+                
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Catoegory</label>
+                            <input type="city" class="form-control inputdata" id="Catoegory" aria-describedby="emailHelp" placeholder="Catoegory" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Product Description</label>
+                            <input type="text" class="form-control inputdata" id="ProductDescription" aria-describedby="emailHelp" placeholder="Product Description" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Price</label>
+                            <input type="email" class="form-control inputdata" id="Price" placeholder="Price" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Picture</label>
+                            <input type="file" class="form-control inputdata" id="file" aria-describedby="emailHelp" placeholder="picture" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Delivery Type</label>
+                            <input type="text" class="form-control inputdata" id="dlivery" aria-describedby="emailHelp" placeholder="paid / free" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" onclick="addItems()">Save changes</button>
+                    </div> -->
+                    <!-- MODAL END -->
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</div>
+    
+    <!-- Scripting start  -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyANL-FQodFI6suWw9Seq10folF1R78WVF8",
+            authDomain: "afproject-001.firebaseapp.com",
+            databaseURL: "https://afproject-001-default-rtdb.firebaseio.com",
+            projectId: "afproject-001",
+            storageBucket: "afproject-001.appspot.com",
+            messagingSenderId: "867678605547",
+            appId: "1:867678605547:web:ba208c37c5cc088b1aaeae"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="profile.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
