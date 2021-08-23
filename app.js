@@ -13,7 +13,7 @@ function register(){
             userName : name.value,
             userEmail : email.value,
             userPassword : password.value,
-            // role:"customer"
+            role:"customer"
         })
         .then(()=>{
             swal("Successfully!", "User created", "success");
