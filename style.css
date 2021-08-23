@@ -19,14 +19,14 @@ body {
     text-decoration: none !important;
 }
 .navbar-brand{
-    margin-right: 130px !important;
+    /* margin-right: 100px !important; */
 }
 .nav-item {
-    margin-right: 50px !important;
-    margin-left: 50px !important;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
 }
 .logindiv {
-    margin-left: 120px !important;
+    /* margin-left: 80px !important; */
 }
 #logo{
     width: 60px !important;
@@ -62,32 +62,7 @@ box-shadow:  -20px 20px 60px #757575,
 .loginpagetxt {
     color: rgb(192, 23, 23) !important;
 }
-.sliderheadlarge {
-    font-weight: 600;
-    margin: 0 auto !important;
-    color: rgb(192, 23, 23) !important;;
-    /* border: 1px solid; */
-    width: 80% !important;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgba(155, 154, 154, 0.596);
-    margin-bottom: 15px !important;
-    margin-top: 15px !important;
-    box-shadow: 5px 5px 5px #e77777;
 
-}
-.sliderheadsmall {
-    font-weight: 600;
-    margin: 0 auto !important;
-    color: rgb(192, 23, 23) !important;;
-    /* border: 1px solid; */
-    width: 80% !important;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgba(155, 154, 154, 0.657);
-    box-shadow: 5px 5px 5px #e77777;
-
-}
 .logoutdiv {
     margin-top: 20px;
     display: flex;
